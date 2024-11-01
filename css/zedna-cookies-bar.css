@@ -1,0 +1,56 @@
+#zedna-cookies-bar {
+	display: none;
+	direction: ltr;
+	color: #ffffff;
+	min-height: 20px;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	z-index: 99999;
+	padding: 3px 20px 2px;
+	background-color: #2e363f;
+	text-align: center;
+	font-size: 12px;
+	padding: 8px;
+}
+
+#zedna-cookies-bar.top {
+	top: 0;
+	bottom: auto;
+}
+
+#zedna-cookies-bar.bottom {
+	top: auto;
+	bottom: 0;
+}
+
+#zedna-cookies-bar a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#zedna-cookies-bar .cross {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: #000;
+	z-index: 10;
+	font-size: 30px;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button#zednaAcceptCookies {
+	margin: 0 10px;
+	line-height: 20px;
+	background: #45AE52;
+	border: none;
+	color: #ffffff;
+	padding: 2px 12px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+}
